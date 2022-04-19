@@ -9,13 +9,14 @@ event http_header(c: connection, is_orig: bool, name: string, value: string){
 		}else{
 			addr_agent_table[http_ip] = set(addr_agent);
 		}
+	}
 }
 
 
 event zeek_done(){
 	for(ip in addr_agent_table){
 		if(|addr_agent_table[ip]| >= 3){
-			print fmt("%s is a proxy"), ip;
+			print cat(ip) + " is a proxy";
 		}
 	}
 }
