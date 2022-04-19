@@ -1,6 +1,6 @@
 # idshwk3
 一个入侵检测的作业罢了...
-以下为课堂作业PPT，这次实在不愿意排版了直接就粘贴过来吧（叉腰）
+以下为课堂作业PPT，这次实在不愿意排版了直接就粘贴过来吧（理直气壮）
 
 Homework III
 • Make a repository with name idshwk3
